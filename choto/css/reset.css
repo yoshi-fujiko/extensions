@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+html,body,div,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,cite
+{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+
+table,tbody,tfoot,thead,tr,th,td
+{margin:0;padding:0;border:0;outline:0;vertical-align:middle;border-collapse:separate;vertical-align:top;}
+
+body {font:12px/1.5 "ＭＳ Ｐゴシック","細明朝体","ヒラギノ明朝 Pro W3";*font-size:small;*font:x-small;}
+body {color:#333;font-size:78%;}
+
+ul{list-style:none;}
+
+caption {text-align:left;padding-bottom:5px;}
+
+p,dl,dt,dd {padding:0;margin:0;}
+ul li,ol li {list-style:none;}
+
+hr {padding:0;margin:0;border:none;}
+
+em {font-style:normal;}
+
+/*　早見表
+8pt {font-size:77%;}
+10pt {font-size:85%;}
+14pt {font-size:116%;}
+16pt {font-size:130%;}
+20pt {font-size:163%;}
+*/

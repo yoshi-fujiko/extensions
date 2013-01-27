@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+<meta charset="utf-8">
+<title>ちょっとお気に入り</title>
+<link rel="stylesheet" type="text/css" href="css/import.css" media="screen" />
+<link rel="stylesheet" href="css/fav.css" />
+<script type="text/javascript" src="js/jquery-1.7.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/control.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="CONTAINER">
+
+<section id="REGIST">
+<form>
+<p id="SET_TITLE"></p>
+<dl id="SAVE_TERM">
+<dt>保持期間</dt>
+<dd>
+<div><input type="number" id="PB_PERIOD" value="0" pattern="^[0-9]+$">日</div>
+</dd>
+</dl>
+<p><input type="button" value="ちょっとお気に入り追加" id="LITTLE_BOOKMARK" /></p>
+<p id="REG_MSG"></p>
+</form>
+</section>
+
+<section id="VIEW">
+<div id="LOADER"><img src="img/loader.gif" alt="" width="16" height="16" /></div>
+</section>
+
+<section id="OPTION">
+<p id="MODIFY"><a href="option.html" target="_blank"><img src="img/fav_mod.png" alt="お気に入り編集" title="お気に入り編集" width="16" height="16" /></a></p>
+</section>
+
+</div>
+
+</body>
+</html>
